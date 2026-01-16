@@ -1,0 +1,16 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f5f5; color:#333; }
+header { background:#007acc; color:#fff; padding:20px; text-align:center; }
+header nav a { color:#fff; margin:0 10px; text-decoration:none; font-weight:bold; }
+header nav a:hover { text-decoration:underline; }
+main { padding:20px; }
+section, div { margin-bottom:20px; }
+h1,h2 { margin:10px 0; }
+input, button { padding:10px; margin:5px 0; font-size:16px; }
+button { background:#007acc; color:#fff; border:none; border-radius:5px; cursor:pointer; }
+button:hover { background:#005f99; }
+.month { margin:10px 0; padding:10px; border:1px solid #eee; border-radius:8px; background:#f9f9f9; }
+.bday { margin:4px 0; }
+@media (max-width:600px){
+  body{padding:10px;}
+  input, button{width:100%;}
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Дни рождения | Yakamoz Minecraft</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<h1>Дни рождения</h1>
+<nav>
+<a href="index.html">Главная</a>
+<a href="birthdays.html">Дни рождения</a>
+<a href="server.html">Серверы</a>
+<a href="rules.html">Правила</a>
+<a href="admins.html">Админы</a>
+</nav>
+</header>
+
+<main>
+<h2>Добавить / Редактировать день рождения</h2>
+<p>Для добавления/удаления нужен код: <b>Yakamoz</b></p>
+<input id="adminCode" placeholder="Введите код">
+<input id="name" placeholder="Имя">
+<input id="date" placeholder="ДД.ММ.ГГГГ" maxlength="10">
+<button onclick="addBirthday()">Добавить</button>
+
+<div id="months"></div>
+</main>
+
+<footer>
+<p>© 2026 Yakamoz Minecraft</p>
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+<script src="js/firebase.js"></script>
+<script>
+render();
+</script>
+</body>
+</html>
